@@ -1,3 +1,4 @@
+![Versão](https://img.shields.io/badge/vers%C3%A3o-v1.0-blue)
 # 🛡️ Sleep Guardian v1 — by Bioons
 
 ### 🧠 O que é?
