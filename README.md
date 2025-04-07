@@ -7,10 +7,10 @@ Ela **coloca o computador automaticamente em modo de suspensão** após **30 min
 
 ## ⚙️ Funcionalidades da v1
 
-✅ Suspende o PC após 30 minutos de inatividade
-✅ Checa se a Calculadora está ativa — se estiver, nada acontece
-✅ Ícone aparece discretamente nos ícones ocultos da barra de tarefas
-✅ Pode ser encerrado clicando com o botão direito no ícone da bandeja
+✅ Suspende o PC após 30 minutos de inatividade  
+✅ Checa se a Calculadora está ativa — se estiver, nada acontece  
+✅ Ícone aparece discretamente nos ícones ocultos da barra de tarefas  
+✅ Pode ser encerrado clicando com o botão direito no ícone da bandeja  
 ✅ Inicia automaticamente com o Windows
 
 ## ❗IMPORTANTE — LEIA
@@ -58,8 +58,8 @@ Veja abaixo como o **Sleep Guardian** aparece no seu sistema:
 
 ## ✍️ Autoria
 
-Desenvolvido por [Bioons](https://github.com/BioonsYT)
-Versão: `v1.0`
+Desenvolvido por [Bioons](https://github.com/BioonsYT)  
+Versão: `v1.0`  
 Licença: Gratuito para uso pessoal
 
 ## 🙏 Agradecimentos
