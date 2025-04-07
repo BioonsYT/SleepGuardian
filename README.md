@@ -43,6 +43,19 @@ SleepGuardian_v1.zip
 5. Após 30 minutos sem usar o teclado e mouse, seu PC suspende automaticamente
 6. Se quiser pausar a suspensão, **deixe a Calculadora aberta**
 
+## 🖼️ Prévia do aplicativo
+
+Veja abaixo como o **Sleep Guardian** aparece no seu sistema:
+
+### 🔹 Ícone nos aplicativos ocultos
+![Ícone nos apps ocultos](preview%20-%20sleep%20guardian%20apps%20ocultos.png)
+
+### 🔹 Menu ao clicar com o botão direito
+![Opção de sair](preview%20-%20sleep%20guardian%20apps%20ocultos%20op%20de%20sair.png)
+
+### 🔹 App visível na pasta
+![App visível na pasta](preview%20-%20sleep%20guardian%20apps%20ocultos%20na%20pasta.png)
+
 ## ✍️ Autoria
 
 Desenvolvido por [Bioons](https://github.com/BioonsYT)
