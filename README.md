@@ -57,6 +57,13 @@ Veja abaixo como o **Sleep Guardian** aparece no seu sistema:
 ### 🔹 App visível na pasta
 ![App visível na pasta](preview%20-%20sleep%20guardian%20apps%20ocultos%20na%20pasta.png)
 
+### 💡 Compatibilidade
+
+> ✅ **Funciona em qualquer PC com Windows**, mesmo que **Python não esteja instalado**.  
+> O aplicativo foi empacotado como um `.exe` autônomo com tudo que precisa incluído — é só extrair e rodar.  
+>  
+> ⚠️ Como é um app leve e sem instalador, **alguns antivírus podem alertar**. Fique tranquilo, é seguro.
+
 ## ✍️ Autoria
 
 Desenvolvido por [Bioons](https://github.com/BioonsYT)  
