@@ -1,79 +1,129 @@
-![Versão](https://img.shields.io/badge/vers%C3%A3o-v1.0-blue)
-# 🛡️ Sleep Guardian v1 — by Bioons
+![Versão](https://img.shields.io/badge/vers%C3%A3o-v2.0-green)
+
+# 🛡️ Sleep Guardian v2 — by Bioons
 
 ### 🧠 O que é?
 
-**Sleep Guardian** é uma ferramenta leve que roda em segundo plano e protege seu PC de ficar ligado à toa.
-Ela **coloca o computador automaticamente em modo de suspensão** após **30 minutos de inatividade (sem uso de teclado ou mouse)** — **mas só se a Calculadora do Windows não estiver em primeiro plano** (ela é a chave!).
+**Sleep Guardian** é uma ferramenta leve e inteligente que roda em segundo plano e coloca seu computador automaticamente em modo de **suspensão**, **baseado em inatividade real de teclado e mouse**.
 
-## ⚙️ Funcionalidades da v1
+Ao contrário da função nativa do Windows, que pode ser interrompida por programas abertos ou focados, o **Sleep Guardian ignora esses fatores** e foca apenas na sua interação com o sistema — **teclado e mouse**.
 
-✅ Suspende o PC após 30 minutos de inatividade  
-✅ Checa se a Calculadora está ativa — se estiver, nada acontece  
-✅ Ícone aparece discretamente nos ícones ocultos da barra de tarefas  
-✅ Pode ser encerrado clicando com o botão direito no ícone da bandeja  
-✅ Inicia automaticamente com o Windows
+> ✅ Ideal para quem deixa o PC ligado sem perceber e quer **economizar energia** de forma prática.
 
-## ❗IMPORTANTE — LEIA
+---
 
-### ⚠️ O executável **só funciona** se o `.ico` estiver na **mesma pasta** que o `.exe`.
-Mantenha a estrutura original do `.zip`.  
-> 🟥 **Execute o SleepGuardian_v1.exe dentro da pasta extraída!**
+## ⚙️ Funcionalidades da v2
 
-## 📦 Conteúdo do .zip
+✅ Suspende o PC após tempo ajustável de inatividade (1 a 60 minutos)  
+✅ Interface visual intuitiva com abas de informações e logs  
+✅ Monitora uso de teclado e mouse com inteligência — ignora micro-movimentos  
+✅ Permite definir um **processo-chave** (ex: `umjogo.exe`, `Blender.exe`) que **bloqueia a suspensão** enquanto estiver aberto e em foco  
+✅ Inicia monitoramento automaticamente ao abrir  
+✅ Ícone embutido no `.exe` (sem necessidade de arquivos externos)  
+✅ Permite restaurar a janela com clique duplo no ícone da bandeja  
+✅ Opção de sair com clique direito no menu da bandeja  
+✅ Notificação “Rodando em segundo plano” ao ser minimizado  
+✅ Informações de bateria e uptime em tempo real  
+✅ Logs com registros dos eventos e contagem regressiva antes da suspensão  
+✅ Aviso sonoro 10 segundos antes de suspender  
+✅ Prevenção de múltiplas instâncias (evita abrir mais de um Sleep Guardian ao mesmo tempo)
 
-```
-SleepGuardian_v1.zip
-├── SleepGuardian_v1.exe
-└── icon.ico
-```
+---
 
-## 🛣️ Futuro do projeto
+## 🔑 Sobre a função de chave
 
-| Versão | Mudanças previstas                                                                          | Status         |
-|--------|----------------------------------------------------------------------------------------------|----------------|
-| v2     | ❇️ Interface de monitoramento do app<br>📦 Ícone embutido no executável                     | 🚧 Em produção |
-| v3     | 🔁 Trocar a "chave" da calculadora por outra forma de controle (mais prática e dinâmica)    | ⏳ Planejada    |
+Você pode definir um **processo-chave** que serve como "bloqueador" da suspensão.  
+Por padrão, usamos a **Calculadora do Windows** (`CalculatorApp.exe`).
 
-## 🧭 Como usar
+**Como funciona:**
+
+- Se o app-chave **estiver em primeiro plano e ativo**, o monitoramento é pausado
+- Se o app estiver aberto mas **não estiver em foco**, ele **não bloqueia**
+- Se o app **não estiver rodando**, o Sleep Guardian ativa a contagem e suspende o sistema após o tempo definido
+
+> 💡 Você pode trocar a chave digitando o nome de outro processo na interface, sem precisar reiniciar.
+
+---
+
+## 🖥️ Interface
+
+Veja abaixo como é a interface do **Sleep Guardian v2**:
+
+### 🟢 Interface Inicial
+![Interface inicial](preview%20-%20sleep%20interface%20inicial.png)
+
+### 🟡 Interface de Logs
+![Interface de logs](preview%20-%20sleep%20interface%20de%20logs.png)
+
+### 🔵 Ícone na Bandeja
+![App na bandeja](preview%20-%20sleep%20na%20bandeja.png)
+
+### 🟣 Menu ao clicar com botão direito
+![Botões de sair e restaurar](preview%20-%20sleep%20botoes%20de%20sair%20e%20restaurar.png)
+
+---
+
+## 🛣️ Histórico do projeto
+
+| Versão | Mudanças                                                                                   | Status        |
+|--------|---------------------------------------------------------------------------------------------|---------------|
+| v1     | Suspende após 30 min, ícone na bandeja, usa Calculadora como chave                          | ✅ Concluída   |
+| v2     | Interface, processo-chave editável, ícone embutido, logs visuais, melhorias no monitoramento | 🟢 Atual       |
+| v3     | Nova lógica de suspensão, múltiplas chaves ou métodos inteligentes                          | 🔜 Em planejamento |
+
+---
+
+## 📥 Como usar
 
 1. Baixe o `.zip` na aba [Releases](https://github.com/BioonsYT/SleepGuardian/releases)
-2. Extraia o conteúdo para uma pasta
-3. Dê dois cliques no `SleepGuardian_v1.exe`
-4. O ícone vai aparecer nos **ícones ocultos** (na setinha da barra)
-5. Após 30 minutos sem usar o teclado e mouse, seu PC suspende automaticamente
-6. Se quiser pausar a suspensão, **deixe a Calculadora aberta**
+2. Extraia os arquivos para uma pasta
+3. Abra o `SleepGuardian_v2.exe`
+4. O ícone aparecerá na bandeja e o monitoramento será iniciado
+5. Ajuste o tempo de inatividade (1 a 60 minutos)
+6. (Opcional) Digite o nome de um processo-chave para impedir a suspensão
+7. Minimize se quiser — ele continuará ativo em segundo plano
 
-## 🖼️ Prévia do aplicativo
+---
 
-Veja abaixo como o **Sleep Guardian** aparece no seu sistema:
+## 💡 Dica
 
-### 🔹 Ícone nos aplicativos ocultos
-![Ícone nos apps ocultos](preview%20-%20sleep%20guardian%20apps%20ocultos.png)
+Para economizar energia, configure o tempo para 5 ou 10 minutos.  
+Mesmo que você esqueça o PC ligado, o Sleep Guardian vai agir por você.  
+🟢 Ideal para quem deixa música, IDEs ou tarefas abertas.
 
-### 🔹 Menu ao clicar com o botão direito
-![Opção de sair](preview%20-%20sleep%20guardian%20apps%20ocultos%20op%20de%20sair.png)
+---
 
-### 🔹 App visível na pasta
-![App visível na pasta](preview%20-%20sleep%20guardian%20apps%20ocultos%20na%20pasta.png)
+## 🧾 Sobre a versão 1
 
-### 💡 Compatibilidade
+Você ainda pode baixar e usar a versão anterior:
 
-> ✅ **Funciona em qualquer PC com Windows**, mesmo que **Python não esteja instalado**.  
-> O aplicativo foi empacotado como um `.exe` autônomo com tudo que precisa incluído — é só extrair e rodar.  
->  
-> ⚠️ Como é um app leve e sem instalador, **alguns antivírus podem alertar**. Fique tranquilo, é seguro.
+### 🔹 Sleep Guardian v1 — clássico e funcional
+- ✅ Suspende o PC após 30 minutos de inatividade
+- 🔐 Usa a Calculadora como chave
+- 📦 Arquivo `.ico` externo é necessário
+- 🔧 Sem interface — roda apenas na bandeja
 
-## ✍️ Autoria
+🔗 [Baixar Sleep Guardian v1](https://github.com/BioonsYT/SleepGuardian/releases/tag/v1.0)
+
+---
+
+## 💻 Requisitos e Compatibilidade
+
+> ✅ Funciona em qualquer computador com **Windows 10 ou superior**  
+> ❌ Não é compatível com macOS ou Linux  
+> 🔒 Seguro e leve — não requer instalação
+
+---
+
+## 🧑‍💻 Desenvolvedor
 
 Desenvolvido por [Bioons](https://github.com/BioonsYT)  
-Versão: `v1.0`  
-Licença: Gratuito para uso pessoal
+Versão atual: `v2.0`  
+Licença: **Gratuito para uso pessoal**
 
-## 🙏 Agradecimentos
+---
 
-Projeto idealizado e desenvolvido com 💻 e ☕ por **Bioons**
-Obrigado por acompanhar o desenvolvimento do **Sleep Guardian**!
+## ❤️ Agradecimentos
 
-Se você gostou, ⭐ favorite o repositório e compartilhe com amigos que vivem esquecendo o PC ligado! 😄  
-Feedbacks e sugestões são sempre bem-vindos.
+Criado com 💻, ☕ e muita insistência pra não deixar o PC ligado à toa.  
+Se você curtiu o projeto, deixe uma ⭐ no repositório e compartilhe com seus amigos.
