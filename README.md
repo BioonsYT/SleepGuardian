@@ -75,7 +75,7 @@ Veja abaixo como é a interface do **Sleep Guardian v2**:
 
 ## 📥 Como usar
 
-1. Baixe o `.zip` na aba [Releases (V2 aqui)](https://github.com/BioonsYT/SleepGuardian/releases/tag/v2.0)
+1. Baixe o `.zip` na aba [Releases (Download da V2 aqui)](https://github.com/BioonsYT/SleepGuardian/releases/tag/v2.0)
 2. Extraia os arquivos para uma pasta
 3. Abra o `SleepGuardian_v2.exe`
 4. O ícone aparecerá na bandeja e o monitoramento será iniciado
