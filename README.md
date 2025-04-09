@@ -1,7 +1,7 @@
 ![Versão](https://img.shields.io/badge/vers%C3%A3o-v2.0-green)
 
 # 🛡️ Sleep Guardian v2 — by Bioons
-
+![banner do titulo](https://github.com/user-attachments/assets/ce3d9970-05e4-42e6-bbbe-32e2529a4706)
 ### 🧠 O que é?
 
 **Sleep Guardian** é uma ferramenta leve e inteligente que roda em segundo plano e coloca seu computador automaticamente em modo de **suspensão**, **baseado em inatividade real de teclado e mouse**.
@@ -127,3 +127,5 @@ Licença: **Gratuito para uso pessoal**
 
 Criado com 💻, ☕ e muita insistência pra não deixar o PC ligado à toa.  
 Se você curtiu o projeto, deixe uma ⭐ no repositório e compartilhe com seus amigos.
+
+![banner rodape](https://github.com/user-attachments/assets/cc476adc-aa1d-4061-8d85-87ed4e6753df)
