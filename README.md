@@ -104,6 +104,7 @@ Você ainda pode baixar e usar a versão anterior:
 - 🔧 Sem interface — roda apenas na bandeja
 
 🔗 [Baixar Sleep Guardian v1](https://github.com/BioonsYT/SleepGuardian/releases/tag/v1.0)
+╰🔴 Atenção: Esta versão é antiga ou instável (Não recomendada).
 
 ---
 
